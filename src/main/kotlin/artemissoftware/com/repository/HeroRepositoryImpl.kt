@@ -6,10 +6,6 @@ import artemissoftware.com.models.Hero
 
 class HeroRepositoryImpl : HeroRepository {
 
-    override suspend fun searchHeroes(name: String?): ApiResponse {
-        TODO("Not yet implemented")
-    }
-
 
     override val heroes: Map<Int, List<Hero>> by lazy {
         mapOf(
@@ -430,7 +426,9 @@ class HeroRepositoryImpl : HeroRepository {
         }
         return mapOf(PREVIOUS_PAGE_KEY to prevPage, NEXT_PAGE_KEY to nextPage)
     }
-/*
+
+
+
     override suspend fun searchHeroes(name: String?): ApiResponse {
         return ApiResponse(
             success = true,
@@ -455,7 +453,7 @@ class HeroRepositoryImpl : HeroRepository {
         }
     }
 
-    */
+
 
     companion object{
         const val NEXT_PAGE_KEY = "nextPage"
