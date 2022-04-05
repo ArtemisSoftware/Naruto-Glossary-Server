@@ -3,30 +3,14 @@ package artemissoftware.com.repository
 import artemissoftware.com.models.ApiResponse
 import artemissoftware.com.models.Hero
 
+
 class HeroRepositoryImpl : HeroRepository {
-
-    override val heroes: Map<Int, List<Hero>>
-        get() = TODO("Not yet implemented")
-    override val page1: List<Hero>
-        get() = TODO("Not yet implemented")
-    override val page2: List<Hero>
-        get() = TODO("Not yet implemented")
-    override val page3: List<Hero>
-        get() = TODO("Not yet implemented")
-    override val page4: List<Hero>
-        get() = TODO("Not yet implemented")
-    override val page5: List<Hero>
-        get() = TODO("Not yet implemented")
-
-    override suspend fun getAllHeroes(page: Int): ApiResponse {
-        TODO("Not yet implemented")
-    }
 
     override suspend fun searchHeroes(name: String?): ApiResponse {
         TODO("Not yet implemented")
     }
 
-    /*
+
     override val heroes: Map<Int, List<Hero>> by lazy {
         mapOf(
             1 to page1,
@@ -417,6 +401,7 @@ class HeroRepositoryImpl : HeroRepository {
         )
     )
 
+
     override suspend fun getAllHeroes(page: Int): ApiResponse {
         return ApiResponse(
             success = true,
@@ -445,7 +430,7 @@ class HeroRepositoryImpl : HeroRepository {
         }
         return mapOf(PREVIOUS_PAGE_KEY to prevPage, NEXT_PAGE_KEY to nextPage)
     }
-
+/*
     override suspend fun searchHeroes(name: String?): ApiResponse {
         return ApiResponse(
             success = true,
@@ -472,4 +457,8 @@ class HeroRepositoryImpl : HeroRepository {
 
     */
 
+    companion object{
+        const val NEXT_PAGE_KEY = "nextPage"
+        const val PREVIOUS_PAGE_KEY = "prevPage"
+    }
 }
