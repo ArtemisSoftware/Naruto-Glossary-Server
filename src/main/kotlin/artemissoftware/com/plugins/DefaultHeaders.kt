@@ -10,7 +10,7 @@ fun Application.configureDefaultHeader() {
         val oneYearInSeconds = Duration.ofDays(365).seconds
         header(
             name = HttpHeaders.CacheControl,
-            value = "public, max-age=$oneYearInSeconds, immutable"
+            value = "public, max-age=$oneYearInSeconds, immutable" //if not available the images on the android app will not load when there is no internet
         )
     }
 }
