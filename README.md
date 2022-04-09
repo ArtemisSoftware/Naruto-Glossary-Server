@@ -1,17 +1,14 @@
 # Naruto-Glossary-Server
 
-For the backend we will use ktor framework which is built primarily on Kotlin  and Coroutines! You will learn everything about that framework, how to create your own endpoints, how to work with client requests, receive query parameters, process that same request on your backend, and finally send a fully prepared response to your clients, or in this case an Android App which we are going to develop as well.
+ backend built using ktor framework which is built primarily on Kotlin  and Coroutines! You will learn everything about that framework, how to create your own endpoints, how to work with client requests, receive query parameters, process that same request on your backend, and finally send a fully prepared response to your clients, or in this case an Android App which we are going to develop as well.
 
 
 ## The Brief
 
 ## Architecture & Libraries
 
-Develop an Android Application
-Develop a Backend Server with Ktor
+- Develop a Backend Server with Ktor
 Create your own REST API
-Design App UI using Jetpack Compose UI toolkit
-Clean Architecture + Use Cases
 Create and Configure a Backend Server
 Learn about Server Engines
 Learn about Server Modules
@@ -28,7 +25,6 @@ Custom Headers
 Static Pages
 Testing Server Endpoints
 Paging 3 Library with Jetpack Compose
-Offline Caching with Remote Mediator
 Work with multiple Paging Sources in Android Studio
 ROOM as a Local Database
 Dependency Injection on both Server and Android project
