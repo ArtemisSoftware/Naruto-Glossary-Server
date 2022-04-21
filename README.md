@@ -17,7 +17,7 @@ Handle Server Requests and Responses
 Display Static Content on the Server
 Templating
 Auto-Reload Server feature
-How to use Postman
+
 Generate Ktor Project
 Create and Handle Server Endpoints
 Implement Serialization
