@@ -10,7 +10,7 @@ import org.koin.ktor.ext.inject
 fun Route.searchHeroes() {
     val heroRepository: HeroRepository by inject()
 
-    get("/characters/search") {
+    get("/characters/heroes/search") {
         val name = call.request.queryParameters["name"]
 
         val apiResponse = heroRepository.searchHeroes(name = name)
