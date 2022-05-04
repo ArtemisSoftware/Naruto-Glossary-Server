@@ -26,15 +26,10 @@ Static Pages
 Testing Server Endpoints
 Dependency Injection on both Server and Android project
 Dependency Injection with Koin
-Search Widget - Custom UI Component with Jetpack Compose
-Rating Widget - Custom UI Component with Jetpack Compose
-Ordered List - Custom UI Component with Jetpack Compose
-Info Box - Custom UI Component with Jetpack Compose
-Testing Custom UI Components
+
 Testing Android Application (Partially)
 Send HTTP Requests
 Pager Indicators
-System UI Controller
-Both Light and Dark Theme Design
+
 Server Deployment on Heroku
 AND MORE...
