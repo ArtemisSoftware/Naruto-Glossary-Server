@@ -1,5 +1,6 @@
 package artemissoftware.com.plugins
 
+import artemissoftware.com.routes.getAllHeroes
 import artemissoftware.com.routes.getAllHeroesAlternative
 import artemissoftware.com.routes.root
 import artemissoftware.com.routes.searchHeroes
@@ -12,8 +13,8 @@ fun Application.configureRouting() {
     routing {
 
         root()
-        //getAllHeroes()
-        getAllHeroesAlternative()
+        getAllHeroes()
+        //getAllHeroesAlternative()
         searchHeroes()
 
         static("/images"){ //to access images
