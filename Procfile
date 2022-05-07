@@ -1,1 +1,1 @@
-web: build/install/artemissoftware.com.narutoGlossaryServer/bin/artemissoftware.com.narutoGlossaryServer
+web: build/install/artemissoftware.com.narutoglossaryserver/bin/artemissoftware.com.narutoglossaryserver
